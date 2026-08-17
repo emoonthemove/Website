@@ -1,0 +1,31 @@
+.animation {
+    .header__link-left a:hover {
+        color: $animation-main-color;        
+    }
+
+    .category-buttons__dot:hover path {
+        fill: $animation-secondary-color !important;
+    }
+
+    .accent-color {
+        color: $animation-main-color;
+        fill: $animation-main-color;
+    }
+
+    .accent-secondary-color {
+        color: $animation-secondary-color;
+        fill: $animation-secondary-color;
+    }
+
+    .accent-main-color-background {
+        background: $animation-main-color;
+    }
+
+    .accent-secondary-color-background {
+        background: $animation-secondary-color;
+    }
+
+    .logo--dark path {
+        fill: $animation-main-color !important;
+    }
+}

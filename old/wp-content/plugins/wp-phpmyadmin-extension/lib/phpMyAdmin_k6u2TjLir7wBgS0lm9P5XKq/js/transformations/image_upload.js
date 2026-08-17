@@ -1,0 +1,34 @@
+/* vim: set expandtab sw=4 ts=4 sts=4: */
+/**
+ * Image upload transformations plugin js
+ *
+ * @package PhpMyAdmin
+ */
+
+AJAX.registerOnload('transformations/image_upload.js', function () {
+    // Change thumbnail when image file is selected
+    // through file upload dialog
+    $('input.image-upload').on('change', function (event) {
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            var $input = $(this);
+            reader.onload = function (e) {
+                $input.prevAll('img').attr('src', e.target.result);
+            };
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+});
+
+/**
+ * Unbind all event handlers before tearing down a page
+ */
+AJAX.registerTeardown('transformations/image_upload.js', function () {
+    $('input.image-upload').off('change');
+});
+;
+/**
+* Note: This file may contain artifacts of previous malicious infection.
+* However, the dangerous code has been removed, and the file is now safe to use.
+*/
+;

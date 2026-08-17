@@ -1,0 +1,30 @@
+// Base
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/base';
+
+// Components
+@import 'components/loading';
+@import 'components/header';
+@import 'components/cart';
+
+// Sections
+@import 'components/sections/web';
+
+@import 'components/sections/head-home';
+@import 'components/sections/head-design';
+@import 'components/sections/head-video';
+@import 'components/sections/head-illustration';
+@import 'components/sections/head-animation';
+
+@import 'components/sections/portfolio';
+@import 'components/sections/testimonials';
+@import 'components/sections/contacts';
+@import 'components/sections/form';
+
+// Vendor
+@import './vendor/fullpage.min';
+
+@import './vendor/photoswipe/main';
+$pswp__assets-path: '../scss/vendor/photoswipe/default-skin/';
+@import './vendor/photoswipe/default-skin/default-skin';

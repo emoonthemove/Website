@@ -1,0 +1,108 @@
+# Copyright (C) 2017 Edge Instagram Feed
+# This file is distributed under the same license as the Edge Instagram Feed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Edge Instagram Feed 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/edge-instagram-feed\n"
+"POT-Creation-Date: 2017-02-09 13:17:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/edgtf-instagram-api.php:231
+msgid "Can't connect with Instagram"
+msgstr ""
+
+#: lib/edgtf-instagram-api.php:251
+msgid "Success"
+msgstr ""
+
+#: lib/edgtf-instagram-api.php:267
+msgid "User hasn't connected with Instagram"
+msgstr ""
+
+#: lib/edgtf-instagram-api.php:287
+msgid "Can't connect with Instagram API"
+msgstr ""
+
+#: lib/edgtf-instagram-api.php:303
+msgid "Can't get Instagram access token"
+msgstr ""
+
+#: lib/edgtf-instagram-api.php:311
+msgid "Stored access token"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:11
+msgid "Edge Instagram Widget"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:12
+msgid "Display instagram images"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:23
+msgid "Title"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:28
+msgid "Number of photos"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:33
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:35
+msgid "Two"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:36
+msgid "Three"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:37
+msgid "Four"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:38
+msgid "Six"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:39
+msgid "Nine"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:45
+msgid "Image Size"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:47
+msgid "Small"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:48
+msgid "Medium"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:49
+msgid "Large"
+msgstr ""
+
+#: widgets/edgtf-instagram-widget.php:55
+msgid "Images Cache Time"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Edge Instagram Feed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds Instagram feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Edge Themes"
+msgstr ""

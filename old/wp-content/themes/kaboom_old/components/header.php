@@ -1,0 +1,103 @@
+<?php 
+$uri = explode('/', $_SERVER['REQUEST_URI']);
+$locale = $uri[1];
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kaboom is a small, yet potent visual craftsmanship studio.">
+    <?php
+    foreach (glob("wp-content/themes/kaboom/assets/styles/css/*.css") as $css) {
+        echo '<link type="text/css" rel="stylesheet" href="/' . $css . '">';
+    }
+    ?>
+    <link rel="icon" href="/wp-content/themes/kaboom/assets/images/favicon.ico" type="image/x-icon">
+
+    <?php
+    if (strpos($_SERVER['REQUEST_URI'], 'design') !== false) {
+        echo '<title>Kaboom // Design</title>';
+    } else if (strpos($_SERVER['REQUEST_URI'], 'video') !== false) {
+        echo '<title>Kaboom // Video</title>';
+    } else if (strpos($_SERVER['REQUEST_URI'], 'illustration') !== false) {
+        echo '<title>Kaboom // Illustration</title>';
+    } else if (strpos($_SERVER['REQUEST_URI'], 'animation') !== false) {
+        echo '<title>Kaboom // Animation</title>';
+    } else {
+        echo '<title>Kaboom</title>';
+    }
+    ?>
+
+</head>
+<body>
+
+    <div class="loading"></div>
+
+    <header class="header">
+        <div class="header__inner">
+            <div class="hamburger">
+                <div class="hamburger-toggle">
+                    <span class="hamburger-toggle__line hamburger-toggle__line-1"></span>
+                    <span class="hamburger-toggle__line hamburger-toggle__line-2"></span>
+                </div>
+            </div>
+            <div class="header__links">
+
+                <?php 
+                    if ($locale == 'de') { 
+                        echo '
+                            <ul class="header__link-left">
+                                <li class="link-design"><a href="/de/design">Design</a></li>
+                                <span class="separator">•</span>
+                                <li class="link-video"><a href="/de/video">Video</a></li>
+                                <span class="separator">•</span>
+                                <li class="link-illustration"><a href="/de/illustration">Illustration</a></li>
+                                <span class="separator">•</span>
+                                <li class="link-animation"><a href="/de/animation">Animation</a></li>
+                            </ul>
+                            <ul class="header__links-right">
+                                <li><a href="mailto:info@kaboom.bg">info@kaboom.bg</a></li>
+                                <span class="separator">•</span>
+                                <li><a href="/#home">English</a></li>     
+                            </ul>
+                        ';
+                    } else {
+                        echo '
+                            <ul class="header__link-left">
+                                <li class="link-design"><a href="/design">Design</a></li>
+                                <span class="separator">•</span>
+                                <li class="link-video"><a href="/video">Video</a></li>
+                                <span class="separator">•</span>
+                                <li class="link-illustration"><a href="/illustration">Illustration</a></li>
+                                <span class="separator">•</span>
+                                <li class="link-animation"><a href="/animation">Animation</a></li>
+                            </ul>
+                            <ul class="header__links-right">
+                                <li><a href="mailto:info@kaboom.bg">info@kaboom.bg</a></li>
+                                <span class="separator">•</span>
+                                <li><a href="/de/#home">Deutsch</a></li>     
+                            </ul>
+                        ';
+                    }
+                    ?>
+
+            </div>
+            
+            <?php 
+            if ($locale == 'de') { 
+                echo '<a href="/de/#home">';
+            } else {
+                echo '<a href="/#home">';   
+            }
+            ?>
+
+                <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 200 85.2" xml:space="preserve"><style>.st0{fill:#fff}</style><path class="st0" d="M141.4 8.8c1.7-.8 3.9-.1 5.7.3 2.2.5 4.5 1 6.7 1.5.9.2 1.8.4 2.3 1.1.6.8.6 1.9.5 2.8-1.4 15.8-5 31.7-8.1 47.3-.8 4.1-.9 8.4-2.6 12.3-1.3 2.9-4.9 7.7-8.6 6.6-1.5-.4-2.6-1.5-3.7-2.6-3.7-3.6-7.7-7.6-8.8-12.7-.7-3.3-.2-6.7.4-10 1.1-5 2.5-10 3.9-15 1.6-5.6 3.2-11.2 5.1-16.7.8-2.5 1.7-4.9 2.6-7.3.9-2.4 1.7-5.4 3.7-7.1.4-.2.7-.4.9-.5zm-2.5 47.7c.3.2.7.3 1.1.3 2.2 0 2.8-6.4 3.1-8 .8-3.7 1.6-7.4 2.3-11.1.4-1.8.7-3.6 1.1-5.4.3-1.6 1-3.3 1.1-4.9 0-.6-.2-1.3-.7-1.7-.4-.3-.9-.3-1.3-.4-.6-.1-1.2-.1-1.8-.2-.4 0-.8-.1-1.2.1-.8.3-1 1.7-1.3 2.3-2.2 6.2-4.3 12.4-6.5 18.6-.8 2.3-1.6 4.9-.4 7 .8 1.4 2.3 2.2 3.7 3l.8.4zM6.9 26.5c1.2-1.7 4.1-2.3 5.9-2.7 2.8-.7 2.5 1.6 2 3.4-.7 2.7-1.3 5.4-2 8 7.5-4.8 14.1-11 21.4-16 1.5-1 3.4-2 4.8-.9 1.1.8 1.3 2.4.8 3.7-.8 2.3-3.2 4.2-4.9 5.8-2.1 1.9-4.3 3.8-6.4 5.7-2.1 1.8-4.1 3.6-6 5.5-1.4 1.4-3.4 2.9-3.3 5.3.1 1.3.6 2.7 1.1 4 2.1 5.2 4.1 10.3 6.9 15.2.7 1.2 1.4 2.3 1.6 3.6.2 1.3-.2 2.7-1.3 3.1-.8.3-1.8 0-2.6-.5-2.8-1.8-4.7-5.7-6.6-8.3-2.3-3.1-4.6-6.1-6.9-9.2-.4-.6-1-1.2-1.7-1.1-.9 0-1.3 1-1.6 1.9-.6 1.9-1.2 3.9-1.9 5.8-.3.8-.6 1.7-1.3 1.9-.6.2-1.2 0-1.8-.4-3.5-2.1-3.6-5.9-2.7-9.5L4 36.7c.5-1.7 1-3.4 1.4-5.1.4-1.5.6-3.3 1.2-4.7.1-.1.2-.3.3-.4zM105.1 85.1c-1.3-.1-2.5-.3-3.5-1.1-1.4-1.1-1.8-3-2.2-4.7-2.2-9.8-4.4-19.5-6.6-29.3-.8-3.7-1.7-7.5-1.3-11.2.4-5.2 3.1-10 5.6-14.6 4-7.1 7.9-14.2 11.9-21.4.6-1.1 1.2-2.2 2.4-2.6 1.9-.8 3.9.7 5.4 2.1 2.2 2.1 4.5 4.2 6.7 6.2 1 .9 2 1.9 2.6 3.1 1.3 2.8-.9 8.8-1.3 11.8-.7 4.5-1.3 9-2 13.4-1.4 9.3-2.7 18.5-4.1 27.8-.5 3.4-1.1 7.1-1.8 10.6-.6 2.9-.5 5.9-3.1 7.8-2.1 1.6-4.9 2-7.6 2.1-.3.1-.7.1-1.1 0zm1.4-18.9c.6.3 1.4.4 2 0 .9-.5.9-1.6 1-2.6.4-2 .6-4.1.9-6.1 1.1-6.5 2.3-12.9 3.5-19.4.6-3.2 1.2-6.4 1.7-9.6.4-2.2 1.7-5.8.2-7.8-3.7-5-5.6 1.6-6.9 4.4-1.1 2.5-2.3 5.1-3.3 7.6-1.8 4.6-1.9 9-1.8 13.8.2 5.3.6 10.6 1 15.8.1 1.1.2 2.3 1 3.2.2.4.4.5.7.7z"/> <path class="st0" d="M46.8 70.7V58.9c0-1.1.1-2.2-.1-3.3-.1-.7-.5-1.5-1.1-1.9-.8-.6-1.9-.6-2.8-.2-1.1.4-1.9 1.3-2.7 2.1l-4.2 4.5c-.6.6-1.3 1.3-2.2 1.3-.9 0-1.5-.8-2-1.5-1-1.4-1.8-2.9-2.5-4.5-1-2.3.5-3.5 1.6-5.4 1.5-2.6 3-5.1 4.6-7.7 3.5-5.6 7.1-11.2 10.7-16.7 1.2-1.8 2.4-3.6 3.5-5.5.7-1.2 1.4-2.5 1.8-3.8.4-1.6-.4-3.3.5-4.6C53 10.1 54.6 9 56.2 8c.9-.5 1.8-1 2.7-1.4.5-.2 1.6-1 2.2-.9 1.3.1 1.4 1.8 1.3 2.6-2.2 20.1-5.1 40.1-5.7 60.2-.1 2.1-.1 4.2-.8 6.1-.7 2-2.1 3.8-4.3 4.6-2.9 1.1-4.6-.9-4.7-3.3 0-1.7 0-3.5-.1-5.2zm5.3-32.6c.1-.8.1-1.6.2-2.2.1-.7.2-1.5.1-2.1-.2-.7-.7-1.2-1.3-1.1-.7.1-1.2.8-1.6 1.5-1.8 2.9-4 5.9-5.1 9.1-.1.4-.2.8-.2 1.2 0 .4.2.8.6 1 .4.2.9.1 1.4 0 1.1-.3 2.1-.6 3.2-.9.5-.1 1-.3 1.4-.6 1.4-1.2 1.2-4.3 1.3-5.9zM61.4 75.2C64.1 51 67.7 26.9 72.3 2.9c.1-.6.3-1.3.9-1.7 1.1-.7 2.6.1 3.6.9 4.8 3.7 9.6 7.3 14.5 11 1.1.8 2.3 1.7 2.7 2.9 1.6 4.3-5.8 9.1-8.8 11.8-6.3 5.7-6 7.4-2.7 15.9 2.2 5.5 8.4 11.2 6.6 17.3-.8 2.7-3.3 4.9-5.8 6.9-5.7 4.5-11.9 8.5-18.5 12.1-.6.3-1.3.7-2 .6-1.4-.2-1.6-1.8-1.5-3 0-.8.1-1.6.1-2.4zm18.3-19.7c-.1-1-.5-2-.9-2.9-.7-1.6-1.3-3.2-2-4.8-.3-.8-.7-1.6-1.5-2-2.2-1.1-2.6 1.7-2.8 2.7-.7 3.9-1.3 7.9-2 11.8-.1.8-.3 1.7 0 2.6 1.8 4.9 9.1-4 9.2-6.2.1-.5.1-.9 0-1.2zm2.2-35c.6-.8.7-1.6.2-2.6-.4-.6-1.3-1.4-2-1.7-.5-.2-1.3-.2-1.7.1-.3.3-.3.6-.4.9-.2 1.4-.4 2.9-.6 4.3-.3 2.2 3.8-.1 4.4-.9.1.1.1 0 .1-.1zM165.5 58c-.8 3.7-1.7 7.3-2.5 11-.4 1.6-1 3.5-2.5 3.9-1.1.3-2.2-.2-3.1-1-2.2-2.1-2.4-5.6-1.8-8.7.4-1.9 3.7-18.9 4.4-22.9l2.4-12.9c.5-2.4.5-8.7 3.9-9.2 1.2-.2 2.4.5 3.3 1.5.8.9 1.3 2.1 1.8 3.3l4.2 10.2c.3.8.7 1.7 1 2.5.2.6.5 1.6.9 2.1 1.1 1.1 2.4-1 2.9-1.8 1.1-1.9 2.5-3.6 3.9-5.3 1-1.2 1.9-2.9 3.8-2.7 1.1.1 1.9 1 2.4 1.9.7 1.1 1.2 2.4 1.9 3.5 1.3 1.9 2.4 3.8 3.7 5.7.5.8 1.1 1.7 1.7 2.4.7.8 1.4 1.5 1.9 2.5.3.8.5 1.8.3 2.7-.5 1.9-2.9 2.4-4.5 1.9s-2.8-1.9-3.8-3.2c-1-1.3-2.1-2.6-3.1-3.9-.8-1-1.6-2.2-2.9-.8-.4.5-.6 1.1-.8 1.6-.8 2.1-1.6 4.3-2.3 6.4-.4 1.2-.9 2.4-1.7 3.4-.8.9-2.2 1.6-3.4 1.2-1.3-.4-2.1-1.7-2.7-2.8-1-1.8-2-3.7-3-5.5-.3-.5-.6-1.1-1.2-1.3-.6-.2-1.3.2-1.7.8-.5.8-.5 2-.8 2.9-.3 1.2-.6 2.4-.8 3.7-.3 1.2-.6 2.4-.8 3.7-.5.8-1 2.2-1 3.2z"/> </svg>
+            </a>
+        </div>
+    </header>
+
+    <?php include "photoswipe.php"; ?>
+
+    <div id="fullpage">

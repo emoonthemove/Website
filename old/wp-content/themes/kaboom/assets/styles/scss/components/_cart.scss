@@ -1,0 +1,41 @@
+.cart {
+    position: relative;
+    display: inline-block !important;
+    line-height: 2;
+
+    img {
+        width: 2rem;
+        margin-bottom: -0.2rem;
+
+        @include breakpoint-lg {
+            width: 1.2rem;
+        }
+    }
+
+    &__items {
+        position: absolute;
+        background-color: #D80000;
+        color: white;
+        line-height: 0.6;
+        padding: 0.2rem;
+        border-radius: 50%;
+        width: 0.8rem;
+        height: 0.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: -0.3rem;
+        top: 0.15rem;
+        transform: scale(1);
+        transition: 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+        box-sizing: content-box;
+    
+        &--update {
+            transform: scale(2);
+        }
+
+        @include breakpoint-lg {
+            box-sizing: border-box;
+        }
+    }
+}

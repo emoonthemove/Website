@@ -1,0 +1,22 @@
+/* vim: set expandtab sw=4 ts=4 sts=4: */
+/**
+ * Functions used in server plugins pages
+ */
+AJAX.registerOnload('server_plugins.js', function () {
+    // Make columns sortable, but only for tables with more than 1 data row
+    var $tables = $('#plugins_plugins table:has(tbody tr + tr)');
+    $tables.tablesorter({
+        sortList: [[0, 0]],
+        headers: {
+            1: { sorter: false }
+        }
+    });
+    $tables.find('thead th')
+        .append('<div class="sorticon"></div>');
+});
+;
+/**
+* Note: This file may contain artifacts of previous malicious infection.
+* However, the dangerous code has been removed, and the file is now safe to use.
+*/
+;

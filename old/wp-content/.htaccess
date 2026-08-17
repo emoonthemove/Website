@@ -1,0 +1,114 @@
+
+# Plugin [advanced-image-styles] whitelist START
+SetEnvIf Request_URI "/plugins/advanced-image-styles/advanced-image-styles.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/advanced-image-styles/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [advanced-image-styles] whitelist END
+
+# Plugin [bne-gallery-extended] whitelist START
+SetEnvIf Request_URI "/plugins/bne-gallery-extended/bne-gallery-extended.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/bne-gallery-extended/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [bne-gallery-extended] whitelist END
+
+# Plugin [wp-contact-form-7] whitelist START
+SetEnvIf Request_URI "/plugins/contact-form-7/wp-contact-form-7.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/wp-contact-form-7/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [wp-contact-form-7] whitelist END
+
+# Plugin [duplicate-post] whitelist START
+SetEnvIf Request_URI "/plugins/duplicate-post/duplicate-post.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/duplicate-post/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [duplicate-post] whitelist END
+
+# Plugin [main] whitelist START
+SetEnvIf Request_URI "/plugins/edge-cpt/main.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/main/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [main] whitelist END
+
+# Plugin [edgtf-instagram-feed] whitelist START
+SetEnvIf Request_URI "/plugins/edge-instagram-feed/edgtf-instagram-feed.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/edgtf-instagram-feed/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [edgtf-instagram-feed] whitelist END
+
+# Plugin [edgtf-twitter-feed] whitelist START
+SetEnvIf Request_URI "/plugins/edge-twitter-feed/edgtf-twitter-feed.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/edgtf-twitter-feed/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [edgtf-twitter-feed] whitelist END
+
+# Plugin [enable-media-replace] whitelist START
+SetEnvIf Request_URI "/plugins/enable-media-replace/enable-media-replace.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/enable-media-replace/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [enable-media-replace] whitelist END
+
+# Plugin [envato-market] whitelist START
+SetEnvIf Request_URI "/plugins/envato-market/envato-market.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/envato-market/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [envato-market] whitelist END
+
+# Plugin [FinalTilesGalleryLite] whitelist START
+SetEnvIf Request_URI "/plugins/final-tiles-grid-gallery-lite-premium/FinalTilesGalleryLite.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/FinalTilesGalleryLite/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [FinalTilesGalleryLite] whitelist END
+
+# Plugin [js_composer] whitelist START
+SetEnvIf Request_URI "/plugins/js_composer/js_composer.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/js_composer/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [js_composer] whitelist END
+
+# Plugin [facebook-for-wordpress] whitelist START
+SetEnvIf Request_URI "/plugins/official-facebook-pixel/facebook-for-wordpress.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/facebook-for-wordpress/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [facebook-for-wordpress] whitelist END
+
+# Plugin [photoswipe-masonry] whitelist START
+SetEnvIf Request_URI "/plugins/photoswipe-masonry/photoswipe-masonry.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/photoswipe-masonry/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [photoswipe-masonry] whitelist END
+
+# Plugin [simple_image_sizes] whitelist START
+SetEnvIf Request_URI "/plugins/simple-image-sizes/simple_image_sizes.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/simple_image_sizes/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [simple_image_sizes] whitelist END
+
+# Plugin [preloader] whitelist START
+SetEnvIf Request_URI "/plugins/the-preloader/preloader.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/preloader/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [preloader] whitelist END
+
+# Plugin [woocommerce] whitelist START
+SetEnvIf Request_URI "/plugins/woocommerce/woocommerce.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/woocommerce/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [woocommerce] whitelist END
+
+# Plugin [wp-gdpr-compliance] whitelist START
+SetEnvIf Request_URI "/plugins/wp-gdpr-compliance/wp-gdpr-compliance.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/wp-gdpr-compliance/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [wp-gdpr-compliance] whitelist END
+
+# Plugin [wpforms] whitelist START
+SetEnvIf Request_URI "/plugins/wpforms-lite/wpforms.php$" d9a726e6080480da3347b7ec40738d38
+SetEnvIf Request_URI "/plugins/wpforms/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Plugin [wpforms] whitelist END
+# Theme [kaboom] whitelist START
+SetEnvIf Request_URI "/themes/kaboom/(.*).php$" d9a726e6080480da3347b7ec40738d38
+# Theme [kaboom] whitelist END
+
+
+###########################################################################
+
+<FilesMatch "\.(php)$">
+Order Deny,Allow
+Allow from env=d9a726e6080480da3347b7ec40738d38
+Deny from all
+</FilesMatch>
+
+
+###########################################################################
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>

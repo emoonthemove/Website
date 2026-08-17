@@ -1,0 +1,33 @@
+.home {
+    .page-links {
+        margin-top: 0.5rem;
+        float: left;
+        min-width: 100%;
+        margin-bottom: 1rem;
+
+        .page-link {
+            text-transform: uppercase;
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+            margin-left: -0.1em;
+            letter-spacing: -0.4rem;
+            height: 4.5rem;
+            overflow: hidden;
+            margin-bottom: -0.6rem;
+
+            @include breakpoint-lg {
+                font-size: 5rem;
+            }   
+
+            a, span {
+                cursor: pointer;
+            }
+
+            a:hover, span:hover {
+                font-family: $font-secondary-heavy;
+                top: -0.25rem;
+                position: relative;
+            }
+        }
+    }
+}

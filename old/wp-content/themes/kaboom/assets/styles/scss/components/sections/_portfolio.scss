@@ -1,0 +1,200 @@
+.portfolio {
+    background: black;
+
+    .background {
+
+        &__1 {
+            margin-left: 0.5rem;
+        }
+
+        &__2 {
+            height: 45rem;
+            margin-left: -24.7rem;
+            margin-top: 24rem;
+        }
+    
+        &__3 {
+            margin-left: 24rem;
+        }
+    }
+
+    .backdrop {
+        height: 64rem;
+        margin-left: -2rem;
+        margin-top: -11rem;
+    }
+
+    &__filter {
+        margin-top: 2.5rem;
+
+        @include breakpoint-lg {
+            margin-top: 1.3rem;
+        }  
+
+        button, a {
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: $font-main-heavy;
+            font-size: 1rem;
+            display: block;
+            padding: 0;
+            margin-top: 1.5rem;
+            outline: none !important;
+            transition: opacity 0.5s;
+
+            @include breakpoint-lg {
+                margin-top: 0;
+                font-size: 0.55rem;
+                display: inline-block;
+            }  
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        span {
+            opacity: 0.5;
+            top: 0.12rem;
+            position: relative;
+            display: none;
+
+            @include breakpoint-lg {
+                display: inline-block;
+            }  
+        }
+    }
+
+    &__projects {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        margin-top: 3rem;
+        padding: 0 1rem;
+
+
+        .next-section {
+            margin-bottom: 50vh;
+        }
+    }
+}
+
+@supports (mix-blend-mode: multiply) {
+
+    .project a {
+        display: block;
+        overflow: hidden;
+        transform: scale(1);
+    }
+
+    .project img {
+        filter: grayscale(1);
+        mix-blend-mode: multiply;
+        transform: translateZ(0);
+    }
+}
+
+.projects {
+    &__inner {
+        position: relative;
+        max-width: 32rem;
+        width: 100%;
+        margin: auto;
+        padding: 0 20px;
+    }
+}
+
+.project {
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(0.96);
+    width: calc(50% - #{$spacing});
+    height: 0;
+    padding-bottom: 50%;
+    opacity: 0;
+    transition: opacity 1s;
+
+    a, img {
+        transition: 0.5s;
+    }
+
+    &:hover {
+
+        img {
+            filter: none;
+        }
+
+        a {
+            background: none;
+        }
+
+        &:before {
+            opacity: 1;
+        }
+    }
+
+    &:nth-child(5n+3) {
+        transform: scale(0.76);
+    }
+
+    &:nth-child(3n+3) {
+        transform: scale(0.86);
+    }
+
+    &:before {
+        pointer-events: none;
+        opacity: 0;
+        background-image: url(../../images/zoom.svg);
+        background-repeat: no-repeat;
+        transition: 0.5s;
+        content: '';
+        filter: drop-shadow(0 0 4rem black);
+        height: 5rem;
+        width: 5rem;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    a {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    @include breakpoint-lg {
+        width: calc(25% - #{$spacing});
+        padding-bottom: 25%;
+    }
+}
+
+.more-projects-gallery {
+    font-family: $font-main-heavy;
+    color: white;
+    margin: 5rem 0;
+    cursor: pointer;
+
+    .accent-font {
+        color: white;
+        font-family: $font-secondary-heavy-italic;
+    }
+}
+
+// Photoswipe
+.pswp--animate_opacity,
+.pswp__bg,
+.pswp__caption,
+.pswp__top-bar,
+.pswp--has_mouse .pswp__button--arrow--left,
+.pswp--has_mouse .pswp__button--arrow--right{
+    -webkit-transition: opacity 600ms cubic-bezier(.4,0,.22,1);
+    transition: opacity 600ms cubic-bezier(.4,0,.22,1);
+}

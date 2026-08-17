@@ -1,0 +1,14 @@
+
+RewriteEngine on
+ErrorDocument 404 /404/
+RewriteCond %{HTTP_HOST} ^kaboom\.bg$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kaboom\.bg$
+RewriteRule ^/?$ "https\:\/\/kaboom\.bg\/bg\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^wearekaboom\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wearekaboom\.com$
+RewriteRule ^/?$ "https\:\/\/wearekaboom\.com\/en\/" [R=301,L]
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit

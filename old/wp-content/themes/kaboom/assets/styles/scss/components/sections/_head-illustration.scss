@@ -1,0 +1,31 @@
+.illustration {
+    .header__link-left a:hover {
+        color: $illustration-main-color;        
+    }
+
+    .category-buttons__dot:hover path {
+        fill: $illustration-secondary-color !important;
+    }
+
+    .accent-color {
+        color: $illustration-main-color;
+        fill: $illustration-main-color;
+    }
+
+    .accent-secondary-color {
+        color: $illustration-secondary-color;
+        fill: $illustration-secondary-color;
+    }
+
+    .accent-main-color-background {
+        background: $illustration-main-color;
+    }
+
+    .accent-secondary-color-background {
+        background: $illustration-secondary-color;
+    }
+
+    .logo--dark path {
+        fill: $illustration-main-color !important;   
+    }
+}

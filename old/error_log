@@ -1,0 +1,367 @@
+[06-Feb-2025 12:08:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/kaboombg/public_html/wp-includes/wp-db.php on line 1685
+[06-Feb-2025 12:08:08 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/kaboombg/public_html/wp-includes/wp-db.php on line 1685
+[06-Feb-2025 12:37:09 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[07-Feb-2025 00:03:53 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[08-Feb-2025 00:06:20 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 00:04:17 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 06:43:17 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 06:44:17 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 06:46:54 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 06:52:39 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 06:53:47 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 06:59:05 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:03:20 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:09:58 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:20:42 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:24:35 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:38:16 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:39:16 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:41:46 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:45:31 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:46:31 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 07:48:23 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 16:34:31 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[09-Feb-2025 16:58:29 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[10-Feb-2025 00:00:56 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[11-Feb-2025 00:04:30 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[11-Feb-2025 09:40:46 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[12-Feb-2025 01:08:22 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324
+[13-Feb-2025 00:25:04 UTC] PHP Fatal error:  Uncaught Error: Unknown named parameter $tasks_meta_id in /home/kaboombg/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#1 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#2 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array()
+#3 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action()
+#5 /home/kaboombg/public_html/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch()
+#6 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#7 /home/kaboombg/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/kaboombg/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/kaboombg/public_html/wp-cron.php(191): do_action_ref_array()
+#10 {main}
+  thrown in /home/kaboombg/public_html/wp-includes/class-wp-hook.php on line 324

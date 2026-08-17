@@ -1,0 +1,132 @@
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_design_styles function */
+.edgtf-preload-background { background-image: url(http://www.kaboom.bg/wp-content/themes/illustrator/assets/img/preload_pattern.png) !important;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_design_styles function */
+body { font-family: Roboto;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_design_styles function */
+.edgtf-wrapper-inner, .edgtf-full-width, .edgtf-content, .edgtf-content-inner > .edgtf-container { background-color: #000000;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_design_styles function */
+.edgtf-boxed .edgtf-wrapper { background-attachment: fixed;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_h1_styles function */
+h1 { font-family: Georgia;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_h2_styles function */
+h2 { font-family: Georgia;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_h3_styles function */
+h3 { font-family: Arial;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_h5_styles function */
+h5 { font-family: Arial;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_h6_styles function */
+h6 { font-family: Arial;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_text_styles function */
+p { font-family: Arial;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/assets/custom-styles/general-custom-styles.php illustrator_edge_404_styles function */
+.error404 .edgtf-content .edgtf-container { background-image: url(http://illustrator.edge-themes.com/wp-content/themes/illustrator/assets/css/img/image404.jpg);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea { height: 133px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_button_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit { color: #ffffff;background-color: rgba(48, 48, 48, 1);border-color: rgba(48, 48, 48, 1);border-style: solid;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_button_hover_styles_1 function */
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(96, 30, 88, 1);border-color: rgba(96, 30, 88, 1);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea { height: 163px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_button_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit { color: #ffffff;background-color: rgba(48, 48, 48, 1);border-color: rgba(48, 48, 48, 1);border-style: solid;border-width: 2px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_button_hover_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #303030;background-color: rgba(255, 255, 255, 1);border-color: rgba(48, 48, 48, 1);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea { height: 163px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_text_styles_3 function */
+.cf7_custom_style_3.wpcf7-form input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_3.wpcf7-form input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_3.wpcf7-form input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_3.wpcf7-form textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_3.wpcf7-form select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_3.wpcf7-form input.wpcf7-form-control.wpcf7-quiz { background-color: rgba(226, 228, 229, 0.85);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_button_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-submit { color: #303030;background-color: rgba(255, 255, 255, 1);border-color: rgba(255, 255, 255, 1);border-style: solid;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/contactform7/custom-styles/contact-form.php illustrator_edge_contact_form7_button_hover_styles_3 function */
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(48, 48, 48, 1);border-color: rgba(48, 48, 48, 1);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/header.php illustrator_edge_header_top_bar_styles function */
+.edgtf-top-bar { height: 60px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/header.php illustrator_edge_header_top_bar_styles function */
+.edgtf-top-bar .edgtf-logo-wrapper a { max-height: 60px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/header.php illustrator_edge_header_standard_menu_area_styles function */
+.edgtf-header-standard .edgtf-page-header .edgtf-menu-area { background-color: rgba(255, 255, 255, 0);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/header.php illustrator_edge_vertical_menu_styles function */
+.edgtf-header-vertical .edgtf-vertical-menu-area .edgtf-vertical-menu-area-table-cell { vertical-align: top;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/header.php illustrator_edge_header_full_screen_menu_area_styles function */
+.edgtf-header-full-screen .edgtf-page-header .edgtf-menu-area { background-color: rgba(0, 0, 0, 0);}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/header.php illustrator_edge_fixed_header_styles function */
+.edgtf-fixed-on-scroll .edgtf-fixed-wrapper.fixed .edgtf-menu-area { background-color: rgba(255, 255, 255, 0);}
+
+
+        
+        
+        
+        
+	            
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+            .edgtf-drop-down .edgtf-menu-second .edgtf-menu-inner ul,
+            .edgtf-drop-down .edgtf-menu-second .edgtf-menu-inner ul li ul,
+            .shopping_cart_dropdown,
+            .edgtf-drop-down .edgtf-menu-narrow .edgtf-menu-second .edgtf-menu-inner ul,
+            .edgtf-main-menu.edgtf-default-nav #lang_sel ul ul,
+            .edgtf-main-menu.edgtf-default-nav #lang_sel_click  ul ul,
+            .header-widget.widget_nav_menu ul ul,
+            .edgtf-drop-down .edgtf-menu-wide.edgtf-wide-background .edgtf-menu-second{
+            background-color: #ffffff;
+            background-color: rgba(255,255,255,0);
+            }
+
+        
+        
+        
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+        
+                
+        /* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/mobile-header.php illustrator_edge_mobile_header_general_styles function */
+.edgtf-mobile-header .edgtf-mobile-header-inner { height: 0px;}
+
+/* generated in /home/kaboombg/public_html/wp-content/themes/illustrator/framework/modules/header/custom-styles/mobile-header.php illustrator_edge_mobile_logo_styles function */
+.edgtf-mobile-header .edgtf-mobile-logo-wrapper a { max-height: 0px;}
+

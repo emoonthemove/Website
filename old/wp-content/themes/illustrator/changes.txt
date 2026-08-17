@@ -1,0 +1,18 @@
+1.2
+- Added WooCommerce 3.2.6 compatibility
+- Added Envato Market plugin as required
+- Added recommended plugins (WooCommerce and Contact Form 7)
+- Updated Edge CPT plugin to 1.0.2
+- Updated WPBakery Page Builder to 5.4.5
+- Updated Revolution Slider to 5.4.6.4
+- Fixed potential security issue when saving theme options
+- Fixed bug with Contact Form 7 and Vertical Split Slider
+- Improved import functionality for PHP 7.1
+- Improved title function for PHP 7
+
+1.1
+- Added Woocommerce 3+ compatibility
+- Updated Edge CPT plugin to 1.0.1
+- Fixed import for newer php versions
+- Fixed Search Cover Header opening type
+- Fixed Php7 compatibility for per page options

@@ -1,0 +1,23 @@
+.contacts {
+    background: #f676b3;
+
+    .background {
+        &__2 {
+            margin-left: -25rem;
+        }
+
+        &__3 {
+            margin-left: -28rem;
+            height: 47rem !important;
+        }
+    }
+
+    .backdrop {
+        height: 56rem;
+        margin-left: -2rem;
+    }
+
+    h3 {
+        color: black;
+    }
+}

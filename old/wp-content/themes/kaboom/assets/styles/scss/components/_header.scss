@@ -1,0 +1,234 @@
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: none;
+
+    @include breakpoint-lg {
+        background: black;
+    }
+
+    .header__links {
+        display: block;
+        background: #737373;
+        color: white;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        padding: 8rem 6rem;
+        margin-top: -80vh;
+        border-radius: 61% 39% 48% 52% / 53% 49% 51% 47%;
+        transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.5s;
+
+        &--reveal {
+            margin-top: 2vh;
+        }
+
+        @include breakpoint-lg {
+            background: black;
+            z-index: 9999;
+            margin-top: 0;
+            position: relative;
+            background: none;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 0;
+            padding: 0;
+        }
+
+        .web__toggle {
+            display: block;
+
+            @include breakpoint-lg {
+                display: none;
+            }
+
+            span {
+                font-family: $font-main-black;
+                color: black;
+            }
+        }
+    }
+
+    &__inner {
+        position: relative;
+        max-width: $width;
+        width: 100%;
+        margin: auto;
+        padding: 0 $spacing;
+
+        .separator {
+            top: 0.12rem;
+            position: relative;
+            opacity: 0.5;
+            display: none;
+
+            @include breakpoint-lg {
+                display: inline-block;
+            }
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            @include breakpoint-lg {
+                width: auto;
+                display: block;
+            }
+        }
+        
+        li {
+            font-family: $font-main-heavy;
+            display: block;
+            text-transform: uppercase;
+            font-size: 1rem;
+            line-height: 3;
+
+            @include breakpoint-lg {
+                display: inline-block;
+                font-size: 0.55rem;
+            }
+
+            &:first-child:before {
+                display: none;
+            }
+
+            a {
+                transition: color 0.5s;
+
+                &:hover {
+                    color: #929292
+                    // color: $default-main-color;
+                }
+            }
+        }  
+
+        .logo {
+            position: absolute;
+            width: 10rem;
+            left: 1rem;
+            top: 2rem;  
+            opacity: 1;
+            transition: opacity 1s linear;
+        
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 1s;         
+
+
+            @include breakpoint-lg {
+                left: -4rem;
+                top: 4.2rem;  
+            }
+    
+            path {
+                fill: transparent;
+                transition: 1s;
+            }
+        
+            &--light path {
+                fill: white !important;
+            }
+
+            &--black path {
+                fill: black !important;
+            }
+
+            &--dark path {
+                fill: $default-main-color !important;   
+            }
+
+            &--hidden {
+                visibility: hidden;
+                opacity: 0;
+                transition: opacity 1s, visibility 0s 1s;
+
+
+            }
+        }
+
+        .header__l {
+            display: none;
+            width: 2rem;
+            margin-bottom: -0.25rem;
+            margin-right: 0.5rem;
+
+            @include breakpoint-lg {
+                display: inline-block;
+            } 
+
+            path {
+                fill: white;
+            }
+        }
+    }
+}
+
+.hamburger {
+    float: right;
+    margin: 1.5rem;
+    background: black;
+    padding: 2rem;
+    border-radius: 61% 39% 48% 52% / 53% 49% 51% 47%;
+    display: block;
+    
+    @include breakpoint-lg {
+        display: none;
+    }  
+
+    .hamburger-toggle {
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+
+        &__line {
+            position: absolute;
+            height: 0.5rem;
+            width: 100%;
+            background: white;
+            border-radius: 1em;
+            transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.5s;
+
+            &-1 {
+                bottom: 0;
+            }
+
+            &-2 {
+                top: 0;
+            }
+        }
+
+        &--open {
+            .hamburger-toggle__line-1 {
+                transform:rotate(45deg);
+                top: 36%;
+            }
+
+            .hamburger-toggle__line-2 {
+                transform:rotate(-45deg);
+                top: 36%;
+            }
+        }
+    }
+
+}
+
+.link-design a:hover {
+    color: $default-main-color !important;
+}
+
+.link-video a:hover {
+    color: $video-main-color !important;
+}
+
+.link-illustration a:hover {
+    color: $illustration-main-color !important;
+}
+
+.link-animation a:hover {
+    color: $animation-main-color !important;
+}
+
